@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import LinearSVC
 nlp = spacy.load("en_core_web_sm")
 print("core web sm loaded")
-# Example data
+
 data = [
     ("Race: White, Black, African American, Indian, Chinese, Alaskan, Asian, Arabic, Middle Eastern, Mexican, Hispanic, Japanese, Vietnamese", "Race"),
     ("Awards: Science Fair Winner, National Merit Scholar", "Awards"),
